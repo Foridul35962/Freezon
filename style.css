@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: white;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #390099;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+.icon{
+    display: flex;
+}
+
+
+.delivery{
+    color:beige;
+    margin-left: 15px;
+}
+ .country{
+    margin-left: 3px;
+}
+
+.nor{
+    font-size: 12px;
+}
+
+.bold{
+    font-size: 14px;
+}
