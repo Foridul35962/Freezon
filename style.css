@@ -26,17 +26,12 @@
 .border:hover{
     border: 1.5px solid white;
 }
-.icon{
+
+.location{
+    height: 50px;
+    align-items: center;
     display: flex;
-}
-
-
-.delivery{
-    color:beige;
-    margin-left: 15px;
-}
- .country{
-    margin-left: 3px;
+    gap: 5px;
 }
 
 .nor{
