@@ -2,7 +2,6 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
-    color: white;
 }
 
 .navbar{
@@ -11,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color:white;
 }
 
 .logo{
@@ -56,6 +56,11 @@
     border-radius: 3px;
     justify-content: space-evenly;
 }
+
+select > option{
+    color:black
+}
+
 .nav-select:hover{
     border: 3px solid rgb(231, 47, 40);
 }
@@ -117,4 +122,93 @@ select:hover{
     display: flex;
     align-items:center;
     gap: 3px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #741a6f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.menu{
+    font-size: 1.1rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 0.1px;
+}
+.menu-icon{
+    font-size: 1.5rem;
+}
+
+.p-border{
+    height: 35px;
+    border: 1.5px solid transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.p-border:hover{
+    border: 1.5px solid white;
+}
+
+.panel-all{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.panel-all > p{
+    display: flex;
+    align-items: center;
+}
+
+.panel-deals{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section{
+    background-image: url(fashion.jpg);
+    background-size: cover;
+    height: 250px;
+}
+
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffe972;
+    color:black;
+}
+
+.box{
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 15px;
+}
+
+.box-i {
+    background-size: cover;
+    height: 220px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black
+}
+
+.box-content p{
+    color: rgb(38, 38, 235);
 }
