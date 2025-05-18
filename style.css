@@ -197,7 +197,9 @@ select:hover{
 }
 
 .box-i {
-    background-size: cover;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 220px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -206,9 +208,52 @@ select:hover{
 .box-content {
     margin-left: 10px;
     margin-right: 10px;
-    color:black
+    color:black;;
 }
 
 .box-content p{
     color: rgb(38, 38, 235);
+}
+
+.back{
+    height: 50px;
+    background-color: #642962;;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.back a{
+    text-decoration: none;
+    color: white;
+}
+
+.back:hover{
+    background-color: #741a6f;
+}
+.foot-panel{
+    height: 300px;
+    background-color:#331832;
+    padding-top: 30px;
+}
+.get-to-know{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 1.5rem;
+    padding-bottom: 30px;
+}
+
+.get-to-know hr{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-log{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    gap: 200px;
 }
