@@ -1,7 +1,7 @@
 🛒 **Freezon** – Simple E-commerce Homepage (HTML & CSS)
 Freezon is a basic e-commerce homepage built using only HTML and CSS. It showcases a clean layout for an online shopping platform, featuring multiple product categories, a navigation menu, and a structured footer section.
 
-🔗 **Live Demo:** https://stunning-salmiakki-a8a31f.netlify.app/
+🔗 **Live Demo:** [https://stunning-salmiakki-a8a31f.netlify.app/](https://freezon.netlify.app/)
 
 📌 **Features**
 * **Header Section:**
