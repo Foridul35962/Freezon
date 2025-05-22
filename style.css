@@ -208,11 +208,34 @@ select:hover{
 .box-content {
     margin-left: 10px;
     margin-right: 10px;
-    color:black;;
+    /* color:black;; */
 }
 
 .box-content p{
     color: rgb(38, 38, 235);
+}
+
+
+
+/* dark mode */
+
+
+.dark_back{
+    background-color: #353533;
+}
+.dark_box{
+    background-color: #1b1b1b;
+    color: white;
+}
+.mode:hover{
+    transition: all 0.2s ease-in 0s;
+    font-size: 1.1rem;
+    color: #5b9e53;
+}
+.mode:active{
+    transition: all 0s ease-in 0s;
+    font-size: 1rem;
+    color: #1b1b1b;
 }
 
 .back{
